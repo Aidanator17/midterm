@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #cbaf87;
+}
+nav {
+    text-align: center;
+    background-color: #7e8a97;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+article {
+    background-color: #e7dec8;
+}
+.nav {
+    list-style-type:none;
+}
+.pizza {
+    display: inline;
+}
+h2 {
+    text-align: center;
+}
+a:link{
+    color: rgb(31, 183, 221);
+}
+a:visited{
+    color: silver;
+}
