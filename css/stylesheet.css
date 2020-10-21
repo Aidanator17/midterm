@@ -3,17 +3,13 @@ body {
     background-color: #cbaf87;
 }
 nav {
-    text-align: center;
     background-color: #7e8a97;
-    position: sticky;
+    border-color: #7e8a97;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
 }
-
 article {
     background-color: #e7dec8;
 }
@@ -23,7 +19,7 @@ article {
 .pizza {
     display: inline;
 }
-h2 {
+h2, nav {
     text-align: center;
 }
 a:link{
@@ -31,4 +27,20 @@ a:link{
 }
 a:visited{
     color: silver;
+}
+h3 + ul {
+    color: teal;
+}
+img + p {
+    margin: 10px;
+    position: absolute;
+}
+h2 {
+    margin-top: 150px;
+}
+h1, h2, h3 {
+    font-weight: normal;
+}
+h1 {
+    color: #30475e;
 }
